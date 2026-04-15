@@ -23,13 +23,13 @@
 # $7: outfile
 # $8: error file
 # $9: file list
-# $10: output directory
+# ${10}: output directory
 
 
 
 # Inputs
 FA_filelist=$9
-output_dir=$10
+output_dir=${10}
 
 mkdir -p "$output_dir"
 
